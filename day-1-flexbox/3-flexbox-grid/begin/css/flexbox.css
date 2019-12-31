@@ -95,4 +95,11 @@ div img {
 	.col-2-4 {
 		order: 0;
 	}
+	.reverse {
+		flex-direction: row-reverse;
+	}
+	[class*="col-1"] {
+		margin-left: 0;
+		margin-right: 4%;
+	}
 }
